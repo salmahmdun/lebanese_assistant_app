@@ -5,7 +5,12 @@ peft
 trl
 accelerate
 bitsandbytes
-sentencepiece
-jupyter
+unsloth
+gradio
+evaluate
+sentence-transformers
+nltk
 pandas
+scikit-learn
+tqdm
 numpy

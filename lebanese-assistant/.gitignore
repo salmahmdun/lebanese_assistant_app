@@ -1,5 +1,39 @@
-venv/
+# Python
 __pycache__/
-outputs/
+*.pyc
+*.pyo
+
+# Virtual environments
+envir/
+
+inference/*.csv
+
+# HuggingFace / models
 models/
-datasets/
+outputs/
+*.bin
+*.safetensors
+
+# Datasets (very important)
+datasets/raw/
+datasets/processed/
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+# evaluation outputs
+**/evaluation*.csv
+**/*metrics*.png
